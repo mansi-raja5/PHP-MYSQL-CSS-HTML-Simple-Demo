@@ -1,0 +1,88 @@
+.m-0 {
+  margin: 0;
+}
+.p-0 {
+  padding: 0;
+}
+.red-font {
+  color: #e30613;
+}
+.prop-title {
+  color: #000000;
+}
+.prop-location {
+  color: #636569;
+  margin: 20px 0;
+}
+.prop-description {
+  color: #858685;
+}
+
+.property-img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+}
+
+.desc-section {
+  margin: 24px 0;
+}
+
+.other-details {
+  border-left: 1px solid #636569;
+  padding-left: 30px;
+}
+
+.status label,
+.status p,
+.office-space label,
+.office-space p {
+  padding: 0;
+  margin: 0;
+}
+.status label,
+.office-space label {
+  color: #858685;
+}
+.location-icon {
+  margin-right: 10px;
+}
+
+/* icon CSS */
+.icon {
+  margin: 0 20px 0 0;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.selected .star {
+  background-color: #e30613;
+}
+.star {
+  background-color: #666666;
+  mask: url(../images/icons/star.svg) no-repeat center / contain;
+  -webkit-mask: url(../images/icons/star.svg) no-repeat center / contain;
+}
+.enquiry {
+  background-color: #666666;
+  mask: url(../images/icons/enquiry.svg) no-repeat center / contain;
+  -webkit-mask: url(../images/icons/enquiry.svg) no-repeat center / contain;
+}
+.compare {
+  background-color: #666666;
+  mask: url(../images/icons/compare.svg) no-repeat center / contain;
+  -webkit-mask: url(../images/icons/compare.svg) no-repeat center / contain;
+}
+.download {
+  background-color: #666666;
+  mask: url(../images/icons/download.svg) no-repeat center / contain;
+  -webkit-mask: url(../images/icons/download.svg) no-repeat center / contain;
+}
+
+/* proprty box shadow */
+
+.selected {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
